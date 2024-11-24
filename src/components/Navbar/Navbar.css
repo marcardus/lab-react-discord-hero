@@ -1,0 +1,20 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #404EED;
+    width: 100%;
+  }
+  
+  .navbar-logo {
+    height: 40px;
+  }
+  
+  .navbar-menu {
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }

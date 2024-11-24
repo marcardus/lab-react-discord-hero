@@ -1,14 +1,22 @@
-/* src/App.css */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.app {
+  text-align: center;
+  background-color: #5865F2;
+  color: white;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-body {
-  font-family: 'Arial', sans-serif;
+.landing-content {
+  max-width: 600px;
 }
 
-.App {
-  background-color: #f8f8f8;
+.button-group {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
 }
