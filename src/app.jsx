@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Button from "./components/Button/Button";
 import Paragraph from './components/Paragraph/Paragraph';
 import Title from './components/Title/Title';
+import Image from '../public/images/discord-background.png';
 import './App.css';
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
         <div className="button-group">
           <Button text="Download for Mac" variant="primary" />
           <Button text="Open Discord in your browser" variant="secondary" />
+          <img src= {Image} alt="discord-background" />
         </div>
       </div>
     </div>

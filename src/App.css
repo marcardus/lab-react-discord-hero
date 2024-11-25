@@ -17,6 +17,15 @@
 .button-group {
   margin-top: 20px;
   display: flex;
+  flex-direction: column;
+  float: left;
   gap: 10px;
-  justify-content: center;
+
+}
+
+.img {
+ flex: 1;
+ display: flex;
+ justify-content: right;
+ align-items: right;
 }
